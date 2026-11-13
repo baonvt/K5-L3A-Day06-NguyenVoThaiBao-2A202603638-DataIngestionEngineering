@@ -1,0 +1,98 @@
+{
+  "review_status": "Reviewer-labelled audit; author verification recorded in CSV",
+  "coherence": {
+    "A": {
+      "n": 10,
+      "distribution": {
+        "0": 1,
+        "1": 9,
+        "2": 0
+      },
+      "mean_out_of_2": 0.9
+    },
+    "B": {
+      "n": 10,
+      "distribution": {
+        "0": 1,
+        "1": 8,
+        "2": 1
+      },
+      "mean_out_of_2": 1
+    },
+    "C": {
+      "n": 10,
+      "distribution": {
+        "0": 1,
+        "1": 8,
+        "2": 1
+      },
+      "mean_out_of_2": 1
+    }
+  },
+  "metadata_accuracy": {
+    "correct": 45,
+    "total": 45,
+    "fields_checked": [
+      "document_id",
+      "source",
+      "page",
+      "chapter"
+    ]
+  },
+  "filtered_test_queries": {
+    "compliant": 3,
+    "total": 3,
+    "record_checks": {
+      "q17": {
+        "compliant_records": 3,
+        "records": 3,
+        "filter": {
+          "chapter": "5.0"
+        }
+      },
+      "q19": {
+        "compliant_records": 3,
+        "records": 3,
+        "filter": {
+          "chapter": "6.0"
+        }
+      },
+      "q20": {
+        "compliant_records": 3,
+        "records": 3,
+        "filter": {
+          "chapter": "6.0"
+        }
+      }
+    }
+  },
+  "grounding": {
+    "A": {
+      "n": 5,
+      "distribution": {
+        "0": 0,
+        "1": 0,
+        "2": 5
+      },
+      "mean_out_of_2": 2
+    },
+    "B": {
+      "n": 5,
+      "distribution": {
+        "0": 0,
+        "1": 0,
+        "2": 5
+      },
+      "mean_out_of_2": 2
+    },
+    "C": {
+      "n": 5,
+      "distribution": {
+        "0": 0,
+        "1": 0,
+        "2": 5
+      },
+      "mean_out_of_2": 2
+    }
+  }
+}

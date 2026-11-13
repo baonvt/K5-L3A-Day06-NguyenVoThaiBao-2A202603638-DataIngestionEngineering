@@ -1,0 +1,2799 @@
+{
+  "source_id": "nasa-se-handbook-rev2",
+  "title": "NASA Systems Engineering Handbook, Revision 2",
+  "source_path_or_url": "https://ntrs.nasa.gov/api/citations/20170001761/downloads/20170001761.pdf",
+  "record_url": "https://ntrs.nasa.gov/citations/20170001761",
+  "license_or_permission": "NASA NTRS record identifies this as a U.S. Government work and states public use is permitted. Text-only extraction; third-party figures and images are not extracted.",
+  "accessed_at": "2026-11-13",
+  "pdf_sha256": "3153ae2e53e29452d5997efafe280a5f05cd21b43a047e988a17e1dd5207a38e",
+  "physical_content_page_range": [
+    14,
+    324
+  ],
+  "content_page_rule": "Include numbered handbook pages with at least 400 normalized text characters; omit reserved/sparse/figure-only pages and references beginning at physical PDF page 325.",
+  "physical_pages_in_range": 311,
+  "useful_content_pages": 301,
+  "excluded_pages": [
+    {
+      "physical_pdf_page": 15,
+      "printed_page": 2,
+      "characters": 249,
+      "included": false,
+      "reason": "sparse_or_figure_only"
+    },
+    {
+      "physical_pdf_page": 51,
+      "printed_page": 38,
+      "characters": 173,
+      "included": false,
+      "reason": "sparse_or_figure_only"
+    },
+    {
+      "physical_pdf_page": 115,
+      "printed_page": 102,
+      "characters": 397,
+      "included": false,
+      "reason": "sparse_or_figure_only"
+    },
+    {
+      "physical_pdf_page": 258,
+      "printed_page": 245,
+      "characters": 352,
+      "included": false,
+      "reason": "sparse_or_figure_only"
+    },
+    {
+      "physical_pdf_page": 267,
+      "printed_page": 254,
+      "characters": 32,
+      "included": false,
+      "reason": "sparse_or_figure_only"
+    },
+    {
+      "physical_pdf_page": 281,
+      "printed_page": 268,
+      "characters": 235,
+      "included": false,
+      "reason": "sparse_or_figure_only"
+    },
+    {
+      "physical_pdf_page": 301,
+      "printed_page": 288,
+      "characters": 276,
+      "included": false,
+      "reason": "sparse_or_figure_only"
+    },
+    {
+      "physical_pdf_page": 302,
+      "printed_page": 289,
+      "characters": 20,
+      "included": false,
+      "reason": "reserved"
+    },
+    {
+      "physical_pdf_page": 303,
+      "printed_page": 290,
+      "characters": 266,
+      "included": false,
+      "reason": "sparse_or_figure_only"
+    },
+    {
+      "physical_pdf_page": 304,
+      "printed_page": 291,
+      "characters": 20,
+      "included": false,
+      "reason": "reserved"
+    }
+  ],
+  "pages": [
+    {
+      "physical_pdf_page": 14,
+      "printed_page": 1,
+      "characters": 2770,
+      "chapter": "1.0",
+      "chapter_title": "Introduction",
+      "section": "1.2",
+      "section_title": "Scope and Depth"
+    },
+    {
+      "physical_pdf_page": 16,
+      "printed_page": 3,
+      "characters": 3454,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.0",
+      "section_title": "Fundamentals of Systems Engineering"
+    },
+    {
+      "physical_pdf_page": 17,
+      "printed_page": 4,
+      "characters": 3154,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.0",
+      "section_title": "Fundamentals of Systems Engineering"
+    },
+    {
+      "physical_pdf_page": 18,
+      "printed_page": 5,
+      "characters": 2339,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.1",
+      "section_title": "The Common Technical Processes and the SE Engine"
+    },
+    {
+      "physical_pdf_page": 19,
+      "printed_page": 6,
+      "characters": 2201,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.1",
+      "section_title": "The Common Technical Processes and the SE Engine"
+    },
+    {
+      "physical_pdf_page": 20,
+      "printed_page": 7,
+      "characters": 2801,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.1",
+      "section_title": "The Common Technical Processes and the SE Engine"
+    },
+    {
+      "physical_pdf_page": 21,
+      "printed_page": 8,
+      "characters": 469,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.1",
+      "section_title": "The Common Technical Processes and the SE Engine"
+    },
+    {
+      "physical_pdf_page": 22,
+      "printed_page": 9,
+      "characters": 3638,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.2",
+      "section_title": "An Overview of the SE Engine by Project Phase"
+    },
+    {
+      "physical_pdf_page": 23,
+      "printed_page": 10,
+      "characters": 1702,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.3",
+      "section_title": "Example of Using the SE Engine"
+    },
+    {
+      "physical_pdf_page": 24,
+      "printed_page": 11,
+      "characters": 3118,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.4",
+      "section_title": "Distinctions between Product Verification and Product Validation"
+    },
+    {
+      "physical_pdf_page": 25,
+      "printed_page": 12,
+      "characters": 1880,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.4",
+      "section_title": "Distinctions between Product Verification and Product Validation"
+    },
+    {
+      "physical_pdf_page": 26,
+      "printed_page": 13,
+      "characters": 2741,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.5",
+      "section_title": "Cost Effectiveness Considerations"
+    },
+    {
+      "physical_pdf_page": 27,
+      "printed_page": 14,
+      "characters": 1254,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.5",
+      "section_title": "Cost Effectiveness Considerations"
+    },
+    {
+      "physical_pdf_page": 28,
+      "printed_page": 15,
+      "characters": 1173,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.7",
+      "section_title": "Competency Model for Systems Engineers"
+    },
+    {
+      "physical_pdf_page": 29,
+      "printed_page": 16,
+      "characters": 4291,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.7",
+      "section_title": "Competency Model for Systems Engineers"
+    },
+    {
+      "physical_pdf_page": 30,
+      "printed_page": 17,
+      "characters": 3971,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.7",
+      "section_title": "Competency Model for Systems Engineers"
+    },
+    {
+      "physical_pdf_page": 31,
+      "printed_page": 18,
+      "characters": 3087,
+      "chapter": "2.0",
+      "chapter_title": "Fundamentals of Systems Engineering",
+      "section": "2.7",
+      "section_title": "Competency Model for Systems Engineers"
+    },
+    {
+      "physical_pdf_page": 32,
+      "printed_page": 19,
+      "characters": 2564,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.0",
+      "section_title": "NASA Program/Project Life Cycle"
+    },
+    {
+      "physical_pdf_page": 33,
+      "printed_page": 20,
+      "characters": 721,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.0",
+      "section_title": "NASA Program/Project Life Cycle"
+    },
+    {
+      "physical_pdf_page": 34,
+      "printed_page": 21,
+      "characters": 3504,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.0",
+      "section_title": "NASA Program/Project Life Cycle"
+    },
+    {
+      "physical_pdf_page": 35,
+      "printed_page": 22,
+      "characters": 1989,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.0",
+      "section_title": "NASA Program/Project Life Cycle"
+    },
+    {
+      "physical_pdf_page": 36,
+      "printed_page": 23,
+      "characters": 2175,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.1",
+      "section_title": "Program Formulation"
+    },
+    {
+      "physical_pdf_page": 37,
+      "printed_page": 24,
+      "characters": 2829,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.3",
+      "section_title": "Project Pre-Phase A: Concept Studies"
+    },
+    {
+      "physical_pdf_page": 38,
+      "printed_page": 25,
+      "characters": 2112,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.3",
+      "section_title": "Project Pre-Phase A: Concept Studies"
+    },
+    {
+      "physical_pdf_page": 39,
+      "printed_page": 26,
+      "characters": 2226,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.4",
+      "section_title": "Project Phase A: Concept and Technology Development"
+    },
+    {
+      "physical_pdf_page": 40,
+      "printed_page": 27,
+      "characters": 2592,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.4",
+      "section_title": "Project Phase A: Concept and Technology Development"
+    },
+    {
+      "physical_pdf_page": 41,
+      "printed_page": 28,
+      "characters": 2346,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.4",
+      "section_title": "Project Phase A: Concept and Technology Development"
+    },
+    {
+      "physical_pdf_page": 42,
+      "printed_page": 29,
+      "characters": 3538,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.5",
+      "section_title": "Project Phase B: Preliminary Design and Technology Completion"
+    },
+    {
+      "physical_pdf_page": 43,
+      "printed_page": 30,
+      "characters": 1631,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.5",
+      "section_title": "Project Phase B: Preliminary Design and Technology Completion"
+    },
+    {
+      "physical_pdf_page": 44,
+      "printed_page": 31,
+      "characters": 3091,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.6",
+      "section_title": "Project Phase C: Final Design and Fabrication"
+    },
+    {
+      "physical_pdf_page": 45,
+      "printed_page": 32,
+      "characters": 1737,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.6",
+      "section_title": "Project Phase C: Final Design and Fabrication"
+    },
+    {
+      "physical_pdf_page": 46,
+      "printed_page": 33,
+      "characters": 1412,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.7",
+      "section_title": "Project Phase D: System Assembly, Integration and Test, Launch"
+    },
+    {
+      "physical_pdf_page": 47,
+      "printed_page": 34,
+      "characters": 2011,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.7",
+      "section_title": "Project Phase D: System Assembly, Integration and Test, Launch"
+    },
+    {
+      "physical_pdf_page": 48,
+      "printed_page": 35,
+      "characters": 1866,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.8",
+      "section_title": "Project Phase E: Operations and Sustainment"
+    },
+    {
+      "physical_pdf_page": 49,
+      "printed_page": 36,
+      "characters": 1362,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.8",
+      "section_title": "Project Phase E: Operations and Sustainment"
+    },
+    {
+      "physical_pdf_page": 50,
+      "printed_page": 37,
+      "characters": 2705,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.9",
+      "section_title": "Project Phase F: Closeout"
+    },
+    {
+      "physical_pdf_page": 52,
+      "printed_page": 39,
+      "characters": 3167,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.11.1",
+      "section_title": "Introduction"
+    },
+    {
+      "physical_pdf_page": 53,
+      "printed_page": 40,
+      "characters": 2773,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.11.3",
+      "section_title": "Tailoring SE NPR Requirements Using the Compliance Matrix"
+    },
+    {
+      "physical_pdf_page": 54,
+      "printed_page": 41,
+      "characters": 2244,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.11.3",
+      "section_title": "Tailoring SE NPR Requirements Using the Compliance Matrix"
+    },
+    {
+      "physical_pdf_page": 55,
+      "printed_page": 42,
+      "characters": 2869,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.11.4.3",
+      "section_title": "Formality and Timing of Reviews"
+    },
+    {
+      "physical_pdf_page": 56,
+      "printed_page": 43,
+      "characters": 2808,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.11.5",
+      "section_title": "Examples of Tailoring and Customization"
+    },
+    {
+      "physical_pdf_page": 57,
+      "printed_page": 44,
+      "characters": 2271,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.11.5",
+      "section_title": "Examples of Tailoring and Customization"
+    },
+    {
+      "physical_pdf_page": 58,
+      "printed_page": 45,
+      "characters": 523,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.11.5",
+      "section_title": "Examples of Tailoring and Customization"
+    },
+    {
+      "physical_pdf_page": 59,
+      "printed_page": 46,
+      "characters": 1727,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.11.5",
+      "section_title": "Examples of Tailoring and Customization"
+    },
+    {
+      "physical_pdf_page": 60,
+      "printed_page": 47,
+      "characters": 1898,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.11.6",
+      "section_title": "Approvals for Tailoring"
+    },
+    {
+      "physical_pdf_page": 61,
+      "printed_page": 48,
+      "characters": 700,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.11.6",
+      "section_title": "Approvals for Tailoring"
+    },
+    {
+      "physical_pdf_page": 62,
+      "printed_page": 49,
+      "characters": 1805,
+      "chapter": "3.0",
+      "chapter_title": "NASA Program/Project Life Cycle",
+      "section": "3.11.6",
+      "section_title": "Approvals for Tailoring"
+    },
+    {
+      "physical_pdf_page": 63,
+      "printed_page": 50,
+      "characters": 2067,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.0",
+      "section_title": "System Design Processes"
+    },
+    {
+      "physical_pdf_page": 64,
+      "printed_page": 51,
+      "characters": 2329,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.0",
+      "section_title": "System Design Processes"
+    },
+    {
+      "physical_pdf_page": 65,
+      "printed_page": 52,
+      "characters": 961,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.0",
+      "section_title": "System Design Processes"
+    },
+    {
+      "physical_pdf_page": 66,
+      "printed_page": 53,
+      "characters": 869,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.1.1.1",
+      "section_title": "Inputs"
+    },
+    {
+      "physical_pdf_page": 67,
+      "printed_page": 54,
+      "characters": 2752,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.1.1.2.1",
+      "section_title": "Identify Stakeholders"
+    },
+    {
+      "physical_pdf_page": 68,
+      "printed_page": 55,
+      "characters": 2653,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.1.1.2.2",
+      "section_title": "Understand Stakeholder Expectations"
+    },
+    {
+      "physical_pdf_page": 69,
+      "printed_page": 56,
+      "characters": 2921,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.1.1.2.2",
+      "section_title": "Understand Stakeholder Expectations"
+    },
+    {
+      "physical_pdf_page": 70,
+      "printed_page": 57,
+      "characters": 3339,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.1.1.2.3",
+      "section_title": "Identify Needs, Goals, and Objectives"
+    },
+    {
+      "physical_pdf_page": 71,
+      "printed_page": 58,
+      "characters": 3663,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.1.1.2.4",
+      "section_title": "Establish Concept of Operations and Support Strategies"
+    },
+    {
+      "physical_pdf_page": 72,
+      "printed_page": 59,
+      "characters": 1859,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.1.1.2.4",
+      "section_title": "Establish Concept of Operations and Support Strategies"
+    },
+    {
+      "physical_pdf_page": 73,
+      "printed_page": 60,
+      "characters": 1318,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.1.1.2.5",
+      "section_title": "Define Stakeholder Expectations in Acceptable Statements"
+    },
+    {
+      "physical_pdf_page": 74,
+      "printed_page": 61,
+      "characters": 3184,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.1.1.2.9",
+      "section_title": "Baseline Stakeholder Expectations"
+    },
+    {
+      "physical_pdf_page": 75,
+      "printed_page": 62,
+      "characters": 2661,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.1.2",
+      "section_title": "Stakeholder Expectations Definition Guidance"
+    },
+    {
+      "physical_pdf_page": 76,
+      "printed_page": 63,
+      "characters": 1925,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.2.1",
+      "section_title": "Process Description"
+    },
+    {
+      "physical_pdf_page": 77,
+      "printed_page": 64,
+      "characters": 1433,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.2.1.1",
+      "section_title": "Inputs"
+    },
+    {
+      "physical_pdf_page": 78,
+      "printed_page": 65,
+      "characters": 2640,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.2.1.2.2",
+      "section_title": "Define Requirements"
+    },
+    {
+      "physical_pdf_page": 79,
+      "printed_page": 66,
+      "characters": 1912,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "1.4",
+      "section_title": "factor of safety"
+    },
+    {
+      "physical_pdf_page": 80,
+      "printed_page": 67,
+      "characters": 1072,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "1.4",
+      "section_title": "factor of safety"
+    },
+    {
+      "physical_pdf_page": 81,
+      "printed_page": 68,
+      "characters": 472,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.2.1.2.3",
+      "section_title": "Define Requirements in Acceptable Statements"
+    },
+    {
+      "physical_pdf_page": 82,
+      "printed_page": 69,
+      "characters": 2964,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.2.1.2.3",
+      "section_title": "Define Requirements in Acceptable Statements"
+    },
+    {
+      "physical_pdf_page": 83,
+      "printed_page": 70,
+      "characters": 2772,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.2.1.2.4",
+      "section_title": "Validate Technical Requirements"
+    },
+    {
+      "physical_pdf_page": 84,
+      "printed_page": 71,
+      "characters": 3050,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.2.1.2.5",
+      "section_title": "Define MOPs and TPMs"
+    },
+    {
+      "physical_pdf_page": 85,
+      "printed_page": 72,
+      "characters": 2120,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.2.2",
+      "section_title": "Technical Requirements Definition Guidance"
+    },
+    {
+      "physical_pdf_page": 86,
+      "printed_page": 73,
+      "characters": 1181,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.3.1",
+      "section_title": "Process Description"
+    },
+    {
+      "physical_pdf_page": 87,
+      "printed_page": 74,
+      "characters": 3279,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.3.1.2.1",
+      "section_title": "Define One or More Logical Decomposition Models"
+    },
+    {
+      "physical_pdf_page": 88,
+      "printed_page": 75,
+      "characters": 3399,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.3.1.2.2",
+      "section_title": "Allocate Technical Requirements, Resolve Conflicts, and Baseline"
+    },
+    {
+      "physical_pdf_page": 89,
+      "printed_page": 76,
+      "characters": 2412,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.3.2",
+      "section_title": "Logical Decomposition Guidance"
+    },
+    {
+      "physical_pdf_page": 90,
+      "printed_page": 77,
+      "characters": 1797,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.4.1.1",
+      "section_title": "Inputs"
+    },
+    {
+      "physical_pdf_page": 91,
+      "printed_page": 78,
+      "characters": 919,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.4.1.2.1",
+      "section_title": "Define Alternative Design Solutions"
+    },
+    {
+      "physical_pdf_page": 92,
+      "printed_page": 79,
+      "characters": 2039,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.4.1.2.1",
+      "section_title": "Define Alternative Design Solutions"
+    },
+    {
+      "physical_pdf_page": 93,
+      "printed_page": 80,
+      "characters": 3684,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.4.1.2.2",
+      "section_title": "Create Alternative Design Concepts"
+    },
+    {
+      "physical_pdf_page": 94,
+      "printed_page": 81,
+      "characters": 3498,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.4.1.2.3",
+      "section_title": "Analyze Each Alternative Design Solution"
+    },
+    {
+      "physical_pdf_page": 95,
+      "printed_page": 82,
+      "characters": 3689,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.4.1.2.4",
+      "section_title": "Select the Best Design Solution Alternative"
+    },
+    {
+      "physical_pdf_page": 96,
+      "printed_page": 83,
+      "characters": 2112,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.4.1.2.4",
+      "section_title": "Select the Best Design Solution Alternative"
+    },
+    {
+      "physical_pdf_page": 97,
+      "printed_page": 84,
+      "characters": 3342,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.4.1.2.5",
+      "section_title": "Increase the Resolution of the Design"
+    },
+    {
+      "physical_pdf_page": 98,
+      "printed_page": 85,
+      "characters": 3191,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.4.1.2.7",
+      "section_title": "Verify the Design Solution"
+    },
+    {
+      "physical_pdf_page": 99,
+      "printed_page": 86,
+      "characters": 3454,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.4.1.2.9",
+      "section_title": "Identify Enabling Products"
+    },
+    {
+      "physical_pdf_page": 100,
+      "printed_page": 87,
+      "characters": 3141,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.4.1.3",
+      "section_title": "Outputs"
+    },
+    {
+      "physical_pdf_page": 101,
+      "printed_page": 88,
+      "characters": 2634,
+      "chapter": "4.0",
+      "chapter_title": "System Design Processes",
+      "section": "4.4.2",
+      "section_title": "Design Solution Definition Guidance"
+    },
+    {
+      "physical_pdf_page": 102,
+      "printed_page": 89,
+      "characters": 3026,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.0",
+      "section_title": "Product Realization"
+    },
+    {
+      "physical_pdf_page": 103,
+      "printed_page": 90,
+      "characters": 1281,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.0",
+      "section_title": "Product Realization"
+    },
+    {
+      "physical_pdf_page": 104,
+      "printed_page": 91,
+      "characters": 1646,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.1.1",
+      "section_title": "Process Description"
+    },
+    {
+      "physical_pdf_page": 105,
+      "printed_page": 92,
+      "characters": 3020,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.1.1.2.1",
+      "section_title": "Prepare to Conduct Implementation"
+    },
+    {
+      "physical_pdf_page": 106,
+      "printed_page": 93,
+      "characters": 3269,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.1.1.2.2",
+      "section_title": "Purchase, Make, or Reuse the Product"
+    },
+    {
+      "physical_pdf_page": 107,
+      "printed_page": 94,
+      "characters": 3566,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.1.1.2.2",
+      "section_title": "Purchase, Make, or Reuse the Product"
+    },
+    {
+      "physical_pdf_page": 108,
+      "printed_page": 95,
+      "characters": 3241,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.1.1.3",
+      "section_title": "Outputs"
+    },
+    {
+      "physical_pdf_page": 109,
+      "printed_page": 96,
+      "characters": 950,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.1.2",
+      "section_title": "Product Implementation Guidance"
+    },
+    {
+      "physical_pdf_page": 110,
+      "printed_page": 97,
+      "characters": 3809,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.2",
+      "section_title": "Product Integration"
+    },
+    {
+      "physical_pdf_page": 111,
+      "printed_page": 98,
+      "characters": 2904,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.2.1",
+      "section_title": "Process Description"
+    },
+    {
+      "physical_pdf_page": 112,
+      "printed_page": 99,
+      "characters": 1214,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.2.1.2",
+      "section_title": "Process Activities"
+    },
+    {
+      "physical_pdf_page": 113,
+      "printed_page": 100,
+      "characters": 3022,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.2.1.2.4",
+      "section_title": "Prepare the Integration Environment for Assembly and Integration"
+    },
+    {
+      "physical_pdf_page": 114,
+      "printed_page": 101,
+      "characters": 2718,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.2.1.3",
+      "section_title": "Outputs"
+    },
+    {
+      "physical_pdf_page": 116,
+      "printed_page": 103,
+      "characters": 3216,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.3",
+      "section_title": "Product Verification"
+    },
+    {
+      "physical_pdf_page": 117,
+      "printed_page": 104,
+      "characters": 2216,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.3.1",
+      "section_title": "Process Description"
+    },
+    {
+      "physical_pdf_page": 118,
+      "printed_page": 105,
+      "characters": 1137,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.3.1.1",
+      "section_title": "Inputs"
+    },
+    {
+      "physical_pdf_page": 119,
+      "printed_page": 106,
+      "characters": 3182,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.3.1.2",
+      "section_title": "Process Activities"
+    },
+    {
+      "physical_pdf_page": 120,
+      "printed_page": 107,
+      "characters": 1373,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.3.1.2.1",
+      "section_title": "Product Verification Preparation"
+    },
+    {
+      "physical_pdf_page": 121,
+      "printed_page": 108,
+      "characters": 2784,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.3.1.2.1",
+      "section_title": "Product Verification Preparation"
+    },
+    {
+      "physical_pdf_page": 122,
+      "printed_page": 109,
+      "characters": 2940,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.3.1.2.1",
+      "section_title": "Product Verification Preparation"
+    },
+    {
+      "physical_pdf_page": 123,
+      "printed_page": 110,
+      "characters": 2182,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.3.1.2.2",
+      "section_title": "Perform Product Verification"
+    },
+    {
+      "physical_pdf_page": 124,
+      "printed_page": 111,
+      "characters": 3688,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.3.1.2.2",
+      "section_title": "Perform Product Verification"
+    },
+    {
+      "physical_pdf_page": 125,
+      "printed_page": 112,
+      "characters": 2374,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.3.1.2.2",
+      "section_title": "Perform Product Verification"
+    },
+    {
+      "physical_pdf_page": 126,
+      "printed_page": 113,
+      "characters": 2826,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.3.1.2.3",
+      "section_title": "Analyze Product Verification Results and Report"
+    },
+    {
+      "physical_pdf_page": 127,
+      "printed_page": 114,
+      "characters": 2404,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.3.1.3",
+      "section_title": "Outputs"
+    },
+    {
+      "physical_pdf_page": 128,
+      "printed_page": 115,
+      "characters": 911,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.3.2",
+      "section_title": "Product Verification Guidance"
+    },
+    {
+      "physical_pdf_page": 129,
+      "printed_page": 116,
+      "characters": 2449,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.4.1.1",
+      "section_title": "Inputs"
+    },
+    {
+      "physical_pdf_page": 130,
+      "printed_page": 117,
+      "characters": 1073,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.4.1.2",
+      "section_title": "Process Activities"
+    },
+    {
+      "physical_pdf_page": 131,
+      "printed_page": 118,
+      "characters": 2203,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.4.1.2.1",
+      "section_title": "Product Validation Preparation"
+    },
+    {
+      "physical_pdf_page": 132,
+      "printed_page": 119,
+      "characters": 3075,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.4.1.2.2",
+      "section_title": "Perform Product Validation"
+    },
+    {
+      "physical_pdf_page": 133,
+      "printed_page": 120,
+      "characters": 3287,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.4.1.2.3",
+      "section_title": "Analyze Product Validation Results"
+    },
+    {
+      "physical_pdf_page": 134,
+      "printed_page": 121,
+      "characters": 2993,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.4.1.2.3",
+      "section_title": "Analyze Product Validation Results"
+    },
+    {
+      "physical_pdf_page": 135,
+      "printed_page": 122,
+      "characters": 3051,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.4.1.2.4",
+      "section_title": "Prepare Report and Capture Product Validation Work Products"
+    },
+    {
+      "physical_pdf_page": 136,
+      "printed_page": 123,
+      "characters": 2019,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.4.2",
+      "section_title": "Product Validation Guidance"
+    },
+    {
+      "physical_pdf_page": 137,
+      "printed_page": 124,
+      "characters": 2615,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.5.1",
+      "section_title": "Process Description"
+    },
+    {
+      "physical_pdf_page": 138,
+      "printed_page": 125,
+      "characters": 1457,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.5.1.1",
+      "section_title": "Inputs"
+    },
+    {
+      "physical_pdf_page": 139,
+      "printed_page": 126,
+      "characters": 3346,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.5.1.1",
+      "section_title": "Inputs"
+    },
+    {
+      "physical_pdf_page": 140,
+      "printed_page": 127,
+      "characters": 3218,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.5.1.2.1",
+      "section_title": "Prepare to Conduct Transition"
+    },
+    {
+      "physical_pdf_page": 141,
+      "printed_page": 128,
+      "characters": 3262,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.5.1.2.3",
+      "section_title": "Prepare the Product for Transition"
+    },
+    {
+      "physical_pdf_page": 142,
+      "printed_page": 129,
+      "characters": 3019,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.5.1.3",
+      "section_title": "Outputs"
+    },
+    {
+      "physical_pdf_page": 143,
+      "printed_page": 130,
+      "characters": 2765,
+      "chapter": "5.0",
+      "chapter_title": "Product Realization",
+      "section": "5.5.2",
+      "section_title": "Product Transition Guidance"
+    },
+    {
+      "physical_pdf_page": 144,
+      "printed_page": 131,
+      "characters": 3188,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.0",
+      "section_title": "Crosscutting Technical Management"
+    },
+    {
+      "physical_pdf_page": 145,
+      "printed_page": 132,
+      "characters": 2788,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.1",
+      "section_title": "Inputs"
+    },
+    {
+      "physical_pdf_page": 146,
+      "printed_page": 133,
+      "characters": 1695,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.1",
+      "section_title": "Inputs"
+    },
+    {
+      "physical_pdf_page": 147,
+      "printed_page": 134,
+      "characters": 3134,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.2",
+      "section_title": "Process Activities"
+    },
+    {
+      "physical_pdf_page": 148,
+      "printed_page": 135,
+      "characters": 3369,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.2.1",
+      "section_title": "Technical Planning Preparation"
+    },
+    {
+      "physical_pdf_page": 149,
+      "printed_page": 136,
+      "characters": 1619,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.2.1",
+      "section_title": "Technical Planning Preparation"
+    },
+    {
+      "physical_pdf_page": 150,
+      "printed_page": 137,
+      "characters": 2181,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.2.1",
+      "section_title": "Technical Planning Preparation"
+    },
+    {
+      "physical_pdf_page": 151,
+      "printed_page": 138,
+      "characters": 2761,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.2.2",
+      "section_title": "Define the Technical Work"
+    },
+    {
+      "physical_pdf_page": 152,
+      "printed_page": 139,
+      "characters": 3323,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.2.3",
+      "section_title": "Schedule, Organize, and Budget the Technical Effort"
+    },
+    {
+      "physical_pdf_page": 153,
+      "printed_page": 140,
+      "characters": 2714,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.2.3",
+      "section_title": "Schedule, Organize, and Budget the Technical Effort"
+    },
+    {
+      "physical_pdf_page": 154,
+      "printed_page": 141,
+      "characters": 3424,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.2.4",
+      "section_title": "Prepare the SEMP and Other Technical Plans"
+    },
+    {
+      "physical_pdf_page": 155,
+      "printed_page": 142,
+      "characters": 3151,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.2.4",
+      "section_title": "Prepare the SEMP and Other Technical Plans"
+    },
+    {
+      "physical_pdf_page": 156,
+      "printed_page": 143,
+      "characters": 3047,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.2.4",
+      "section_title": "Prepare the SEMP and Other Technical Plans"
+    },
+    {
+      "physical_pdf_page": 157,
+      "printed_page": 144,
+      "characters": 3304,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.2.4",
+      "section_title": "Prepare the SEMP and Other Technical Plans"
+    },
+    {
+      "physical_pdf_page": 158,
+      "printed_page": 145,
+      "characters": 3266,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.2.4",
+      "section_title": "Prepare the SEMP and Other Technical Plans"
+    },
+    {
+      "physical_pdf_page": 159,
+      "printed_page": 146,
+      "characters": 2231,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.2.4",
+      "section_title": "Prepare the SEMP and Other Technical Plans"
+    },
+    {
+      "physical_pdf_page": 160,
+      "printed_page": 147,
+      "characters": 3112,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.2.5",
+      "section_title": "Obtain Stakeholder Commitments to Technical Plans"
+    },
+    {
+      "physical_pdf_page": 161,
+      "printed_page": 148,
+      "characters": 3110,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.1.3",
+      "section_title": "Outputs"
+    },
+    {
+      "physical_pdf_page": 162,
+      "printed_page": 149,
+      "characters": 1922,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.1.2",
+      "section_title": "Technical Planning Guidance"
+    },
+    {
+      "physical_pdf_page": 163,
+      "printed_page": 150,
+      "characters": 1304,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.2.1",
+      "section_title": "Process Description"
+    },
+    {
+      "physical_pdf_page": 164,
+      "printed_page": 151,
+      "characters": 1251,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.2.1.1",
+      "section_title": "Inputs"
+    },
+    {
+      "physical_pdf_page": 165,
+      "printed_page": 152,
+      "characters": 3015,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.2.1.2.3",
+      "section_title": "Conduct Expectations and Requirements Traceability"
+    },
+    {
+      "physical_pdf_page": 166,
+      "printed_page": 153,
+      "characters": 3375,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.2.1.2.5",
+      "section_title": "Key Issues for Requirements Management"
+    },
+    {
+      "physical_pdf_page": 167,
+      "printed_page": 154,
+      "characters": 2780,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.2.1.2.5",
+      "section_title": "Key Issues for Requirements Management"
+    },
+    {
+      "physical_pdf_page": 168,
+      "printed_page": 155,
+      "characters": 1731,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.2.2",
+      "section_title": "Requirements Management Guidance"
+    },
+    {
+      "physical_pdf_page": 169,
+      "printed_page": 156,
+      "characters": 1960,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.3.1",
+      "section_title": "Process Description"
+    },
+    {
+      "physical_pdf_page": 170,
+      "printed_page": 157,
+      "characters": 1309,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.3.1.1",
+      "section_title": "Inputs"
+    },
+    {
+      "physical_pdf_page": 171,
+      "printed_page": 158,
+      "characters": 2751,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.3.1.2.5",
+      "section_title": "Capture Work Products"
+    },
+    {
+      "physical_pdf_page": 172,
+      "printed_page": 159,
+      "characters": 1999,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.3.2",
+      "section_title": "Interface Management Guidance"
+    },
+    {
+      "physical_pdf_page": 173,
+      "printed_page": 160,
+      "characters": 2809,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.4",
+      "section_title": "Technical Risk Management"
+    },
+    {
+      "physical_pdf_page": 174,
+      "printed_page": 161,
+      "characters": 475,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.4",
+      "section_title": "Technical Risk Management"
+    },
+    {
+      "physical_pdf_page": 175,
+      "printed_page": 162,
+      "characters": 2961,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.4",
+      "section_title": "Technical Risk Management"
+    },
+    {
+      "physical_pdf_page": 176,
+      "printed_page": 163,
+      "characters": 985,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.4.1.1",
+      "section_title": "Inputs"
+    },
+    {
+      "physical_pdf_page": 177,
+      "printed_page": 164,
+      "characters": 2809,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.4.1.2.3",
+      "section_title": "Conduct Technical Risk Assessment"
+    },
+    {
+      "physical_pdf_page": 178,
+      "printed_page": 165,
+      "characters": 2007,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.4.1.2.7",
+      "section_title": "Capture Work Products"
+    },
+    {
+      "physical_pdf_page": 179,
+      "printed_page": 166,
+      "characters": 813,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.4.2",
+      "section_title": "Risk Management Process Guidance"
+    },
+    {
+      "physical_pdf_page": 180,
+      "printed_page": 167,
+      "characters": 2739,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.5.1",
+      "section_title": "Process Description"
+    },
+    {
+      "physical_pdf_page": 181,
+      "printed_page": 168,
+      "characters": 1071,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.5.1.2",
+      "section_title": "Process Activities"
+    },
+    {
+      "physical_pdf_page": 182,
+      "printed_page": 169,
+      "characters": 1949,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.5.1.2.2",
+      "section_title": "Identify Baseline to be Under Configuration Control"
+    },
+    {
+      "physical_pdf_page": 183,
+      "printed_page": 170,
+      "characters": 3389,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.5.1.2.2",
+      "section_title": "Identify Baseline to be Under Configuration Control"
+    },
+    {
+      "physical_pdf_page": 184,
+      "printed_page": 171,
+      "characters": 1287,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.5.1.2.3",
+      "section_title": "Manage Configuration Change Control"
+    },
+    {
+      "physical_pdf_page": 185,
+      "printed_page": 172,
+      "characters": 1487,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.5.1.2.4",
+      "section_title": "Maintain the Status of Configuration Documentation"
+    },
+    {
+      "physical_pdf_page": 186,
+      "printed_page": 173,
+      "characters": 1709,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.5.1.2.4",
+      "section_title": "Maintain the Status of Configuration Documentation"
+    },
+    {
+      "physical_pdf_page": 187,
+      "printed_page": 174,
+      "characters": 2419,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.5.2",
+      "section_title": "CM Guidance"
+    },
+    {
+      "physical_pdf_page": 188,
+      "printed_page": 175,
+      "characters": 1668,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.6.1",
+      "section_title": "Process Description"
+    },
+    {
+      "physical_pdf_page": 189,
+      "printed_page": 176,
+      "characters": 1206,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "7123.1",
+      "section_title": "define the need to manage data, but leave specifics to the individual Centers. However,"
+    },
+    {
+      "physical_pdf_page": 190,
+      "printed_page": 177,
+      "characters": 2521,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.6.1.2.1",
+      "section_title": "Prepare for Technical Data Management Implementation"
+    },
+    {
+      "physical_pdf_page": 191,
+      "printed_page": 178,
+      "characters": 3247,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.6.1.2.1",
+      "section_title": "Prepare for Technical Data Management Implementation"
+    },
+    {
+      "physical_pdf_page": 192,
+      "printed_page": 179,
+      "characters": 2261,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.6.1.2.2",
+      "section_title": "Collect and Store Data"
+    },
+    {
+      "physical_pdf_page": 193,
+      "printed_page": 180,
+      "characters": 1994,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.6.1.2.3",
+      "section_title": "Provide Data to Authorized Parties"
+    },
+    {
+      "physical_pdf_page": 194,
+      "printed_page": 181,
+      "characters": 3684,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.6.1.2.3",
+      "section_title": "Provide Data to Authorized Parties"
+    },
+    {
+      "physical_pdf_page": 195,
+      "printed_page": 182,
+      "characters": 982,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.6.2",
+      "section_title": "Technical Data Management Guidance"
+    },
+    {
+      "physical_pdf_page": 196,
+      "printed_page": 183,
+      "characters": 1574,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.7.1",
+      "section_title": "Process Description"
+    },
+    {
+      "physical_pdf_page": 197,
+      "printed_page": 184,
+      "characters": 1720,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.7.1.1",
+      "section_title": "Inputs"
+    },
+    {
+      "physical_pdf_page": 198,
+      "printed_page": 185,
+      "characters": 2572,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.7.1.2.1",
+      "section_title": "Prepare Strategy for Conducting Technical Assessments"
+    },
+    {
+      "physical_pdf_page": 199,
+      "printed_page": 186,
+      "characters": 2187,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.7.1.2.2",
+      "section_title": "Assess Technical Work Productivity and Product Quality and Conduct"
+    },
+    {
+      "physical_pdf_page": 200,
+      "printed_page": 187,
+      "characters": 1539,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.7.1.2.2",
+      "section_title": "Assess Technical Work Productivity and Product Quality and Conduct"
+    },
+    {
+      "physical_pdf_page": 201,
+      "printed_page": 188,
+      "characters": 2981,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.7.1.2.2",
+      "section_title": "Assess Technical Work Productivity and Product Quality and Conduct"
+    },
+    {
+      "physical_pdf_page": 202,
+      "printed_page": 189,
+      "characters": 2692,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.7.1.2.2",
+      "section_title": "Assess Technical Work Productivity and Product Quality and Conduct"
+    },
+    {
+      "physical_pdf_page": 203,
+      "printed_page": 190,
+      "characters": 2494,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.7.1.2.2",
+      "section_title": "Assess Technical Work Productivity and Product Quality and Conduct"
+    },
+    {
+      "physical_pdf_page": 204,
+      "printed_page": 191,
+      "characters": 1732,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.7.1.2.2",
+      "section_title": "Assess Technical Work Productivity and Product Quality and Conduct"
+    },
+    {
+      "physical_pdf_page": 205,
+      "printed_page": 192,
+      "characters": 1556,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.7.2",
+      "section_title": "Technical Assessment Guidance"
+    },
+    {
+      "physical_pdf_page": 206,
+      "printed_page": 193,
+      "characters": 1117,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.8.1",
+      "section_title": "Process Description"
+    },
+    {
+      "physical_pdf_page": 207,
+      "printed_page": 194,
+      "characters": 3216,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.8.1",
+      "section_title": "Process Description"
+    },
+    {
+      "physical_pdf_page": 208,
+      "printed_page": 195,
+      "characters": 922,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.8.1",
+      "section_title": "Process Description"
+    },
+    {
+      "physical_pdf_page": 209,
+      "printed_page": 196,
+      "characters": 2899,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.8.1.2",
+      "section_title": "Process Activities"
+    },
+    {
+      "physical_pdf_page": 210,
+      "printed_page": 197,
+      "characters": 3234,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.8.1.2.2",
+      "section_title": "Identify Alternative Solutions to Address Decision Issues"
+    },
+    {
+      "physical_pdf_page": 211,
+      "printed_page": 198,
+      "characters": 3276,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.8.1.2.4",
+      "section_title": "Evaluate Alternative Solutions with the Established Criteria and Selected"
+    },
+    {
+      "physical_pdf_page": 212,
+      "printed_page": 199,
+      "characters": 3056,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.8.1.2.7",
+      "section_title": "Capture Work Products"
+    },
+    {
+      "physical_pdf_page": 213,
+      "printed_page": 200,
+      "characters": 1954,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.8.1.3.1",
+      "section_title": "Alternative Selection and Decision Support Recommendations and"
+    },
+    {
+      "physical_pdf_page": 214,
+      "printed_page": 201,
+      "characters": 1978,
+      "chapter": "6.0",
+      "chapter_title": "Crosscutting Technical Management",
+      "section": "6.8.2",
+      "section_title": "Decision Analysis Guidance"
+    },
+    {
+      "physical_pdf_page": 215,
+      "printed_page": 202,
+      "characters": 1379,
+      "chapter": "Appendix A",
+      "chapter_title": "Acronyms",
+      "section": "Appendix A",
+      "section_title": "Acronyms"
+    },
+    {
+      "physical_pdf_page": 216,
+      "printed_page": 203,
+      "characters": 1337,
+      "chapter": "Appendix A",
+      "chapter_title": "Acronyms",
+      "section": "Appendix A",
+      "section_title": "Acronyms"
+    },
+    {
+      "physical_pdf_page": 217,
+      "printed_page": 204,
+      "characters": 1397,
+      "chapter": "Appendix A",
+      "chapter_title": "Acronyms",
+      "section": "Appendix A",
+      "section_title": "Acronyms"
+    },
+    {
+      "physical_pdf_page": 218,
+      "printed_page": 205,
+      "characters": 1429,
+      "chapter": "Appendix A",
+      "chapter_title": "Acronyms",
+      "section": "Appendix A",
+      "section_title": "Acronyms"
+    },
+    {
+      "physical_pdf_page": 219,
+      "printed_page": 206,
+      "characters": 904,
+      "chapter": "Appendix A",
+      "chapter_title": "Acronyms",
+      "section": "Appendix A",
+      "section_title": "Acronyms"
+    },
+    {
+      "physical_pdf_page": 220,
+      "printed_page": 207,
+      "characters": 2458,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "Appendix B",
+      "section_title": "Glossary"
+    },
+    {
+      "physical_pdf_page": 221,
+      "printed_page": 208,
+      "characters": 2447,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "Appendix B",
+      "section_title": "Glossary"
+    },
+    {
+      "physical_pdf_page": 222,
+      "printed_page": 209,
+      "characters": 2470,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "Appendix B",
+      "section_title": "Glossary"
+    },
+    {
+      "physical_pdf_page": 223,
+      "printed_page": 210,
+      "characters": 2552,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "Appendix B",
+      "section_title": "Glossary"
+    },
+    {
+      "physical_pdf_page": 224,
+      "printed_page": 211,
+      "characters": 2333,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "Appendix B",
+      "section_title": "Glossary"
+    },
+    {
+      "physical_pdf_page": 225,
+      "printed_page": 212,
+      "characters": 2632,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "Appendix B",
+      "section_title": "Glossary"
+    },
+    {
+      "physical_pdf_page": 226,
+      "printed_page": 213,
+      "characters": 2409,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "Appendix B",
+      "section_title": "Glossary"
+    },
+    {
+      "physical_pdf_page": 227,
+      "printed_page": 214,
+      "characters": 2547,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "Appendix B",
+      "section_title": "Glossary"
+    },
+    {
+      "physical_pdf_page": 228,
+      "printed_page": 215,
+      "characters": 2028,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 229,
+      "printed_page": 216,
+      "characters": 2426,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 230,
+      "printed_page": 217,
+      "characters": 2494,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 231,
+      "printed_page": 218,
+      "characters": 2416,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 232,
+      "printed_page": 219,
+      "characters": 2486,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 233,
+      "printed_page": 220,
+      "characters": 1464,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 234,
+      "printed_page": 221,
+      "characters": 2443,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 235,
+      "printed_page": 222,
+      "characters": 2526,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 236,
+      "printed_page": 223,
+      "characters": 2444,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 237,
+      "printed_page": 224,
+      "characters": 2680,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 238,
+      "printed_page": 225,
+      "characters": 2506,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 239,
+      "printed_page": 226,
+      "characters": 2298,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 240,
+      "printed_page": 227,
+      "characters": 2253,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 241,
+      "printed_page": 228,
+      "characters": 2507,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 242,
+      "printed_page": 229,
+      "characters": 2730,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 243,
+      "printed_page": 230,
+      "characters": 2619,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 244,
+      "printed_page": 231,
+      "characters": 2579,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 245,
+      "printed_page": 232,
+      "characters": 2462,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 246,
+      "printed_page": 233,
+      "characters": 2653,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 247,
+      "printed_page": 234,
+      "characters": 2402,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 248,
+      "printed_page": 235,
+      "characters": 1352,
+      "chapter": "Appendix B",
+      "chapter_title": "Glossary",
+      "section": "7120.5",
+      "section_title": "where system requirements are baselined, feasible concepts"
+    },
+    {
+      "physical_pdf_page": 249,
+      "printed_page": 236,
+      "characters": 1748,
+      "chapter": "Appendix C",
+      "chapter_title": "How to Write a Good Requirement - Checklist",
+      "section": "Appendix C",
+      "section_title": "How to Write a Good Requirement - Checklist"
+    },
+    {
+      "physical_pdf_page": 250,
+      "printed_page": 237,
+      "characters": 2457,
+      "chapter": "Appendix C",
+      "chapter_title": "How to Write a Good Requirement - Checklist",
+      "section": "Appendix C",
+      "section_title": "How to Write a Good Requirement - Checklist"
+    },
+    {
+      "physical_pdf_page": 251,
+      "printed_page": 238,
+      "characters": 1941,
+      "chapter": "Appendix C",
+      "chapter_title": "How to Write a Good Requirement - Checklist",
+      "section": "Appendix C",
+      "section_title": "How to Write a Good Requirement - Checklist"
+    },
+    {
+      "physical_pdf_page": 252,
+      "printed_page": 239,
+      "characters": 2130,
+      "chapter": "Appendix C",
+      "chapter_title": "How to Write a Good Requirement - Checklist",
+      "section": "Appendix C",
+      "section_title": "How to Write a Good Requirement - Checklist"
+    },
+    {
+      "physical_pdf_page": 253,
+      "printed_page": 240,
+      "characters": 885,
+      "chapter": "Appendix D",
+      "chapter_title": "Requirements Verification Matrix",
+      "section": "Appendix D",
+      "section_title": "Requirements Verification Matrix"
+    },
+    {
+      "physical_pdf_page": 254,
+      "printed_page": 241,
+      "characters": 1474,
+      "chapter": "Appendix D",
+      "chapter_title": "Requirements Verification Matrix",
+      "section": "Appendix D",
+      "section_title": "Requirements Verification Matrix"
+    },
+    {
+      "physical_pdf_page": 255,
+      "printed_page": 242,
+      "characters": 669,
+      "chapter": "Appendix D",
+      "chapter_title": "Requirements Verification Matrix",
+      "section": "Appendix D",
+      "section_title": "Requirements Verification Matrix"
+    },
+    {
+      "physical_pdf_page": 256,
+      "printed_page": 243,
+      "characters": 1384,
+      "chapter": "Appendix E",
+      "chapter_title": "Creating the Validation Plan with a Validation",
+      "section": "Appendix E",
+      "section_title": "Creating the Validation Plan with a Validation"
+    },
+    {
+      "physical_pdf_page": 257,
+      "printed_page": 244,
+      "characters": 1134,
+      "chapter": "Appendix E",
+      "chapter_title": "Creating the Validation Plan with a Validation",
+      "section": "Appendix E",
+      "section_title": "Creating the Validation Plan with a Validation"
+    },
+    {
+      "physical_pdf_page": 259,
+      "printed_page": 246,
+      "characters": 3519,
+      "chapter": "Appendix G",
+      "chapter_title": "Technology Assessment / Insertion",
+      "section": "Appendix G",
+      "section_title": "Technology Assessment / Insertion"
+    },
+    {
+      "physical_pdf_page": 260,
+      "printed_page": 247,
+      "characters": 2832,
+      "chapter": "Appendix G",
+      "chapter_title": "Technology Assessment / Insertion",
+      "section": "Appendix G",
+      "section_title": "Technology Assessment / Insertion"
+    },
+    {
+      "physical_pdf_page": 261,
+      "printed_page": 248,
+      "characters": 923,
+      "chapter": "Appendix G",
+      "chapter_title": "Technology Assessment / Insertion",
+      "section": "Appendix G",
+      "section_title": "Technology Assessment / Insertion"
+    },
+    {
+      "physical_pdf_page": 262,
+      "printed_page": 249,
+      "characters": 1580,
+      "chapter": "Appendix G",
+      "chapter_title": "Technology Assessment / Insertion",
+      "section": "Appendix G",
+      "section_title": "Technology Assessment / Insertion"
+    },
+    {
+      "physical_pdf_page": 263,
+      "printed_page": 250,
+      "characters": 2254,
+      "chapter": "Appendix G",
+      "chapter_title": "Technology Assessment / Insertion",
+      "section": "Appendix G",
+      "section_title": "Technology Assessment / Insertion"
+    },
+    {
+      "physical_pdf_page": 264,
+      "printed_page": 251,
+      "characters": 760,
+      "chapter": "Appendix G",
+      "chapter_title": "Technology Assessment / Insertion",
+      "section": "Appendix G",
+      "section_title": "Technology Assessment / Insertion"
+    },
+    {
+      "physical_pdf_page": 265,
+      "printed_page": 252,
+      "characters": 3288,
+      "chapter": "Appendix G",
+      "chapter_title": "Technology Assessment / Insertion",
+      "section": "Appendix G",
+      "section_title": "Technology Assessment / Insertion"
+    },
+    {
+      "physical_pdf_page": 266,
+      "printed_page": 253,
+      "characters": 582,
+      "chapter": "Appendix G",
+      "chapter_title": "Technology Assessment / Insertion",
+      "section": "Appendix G",
+      "section_title": "Technology Assessment / Insertion"
+    },
+    {
+      "physical_pdf_page": 268,
+      "printed_page": 255,
+      "characters": 1198,
+      "chapter": "Appendix G",
+      "chapter_title": "Technology Assessment / Insertion",
+      "section": "Appendix G",
+      "section_title": "Technology Assessment / Insertion"
+    },
+    {
+      "physical_pdf_page": 269,
+      "printed_page": 256,
+      "characters": 2156,
+      "chapter": "Appendix H",
+      "chapter_title": "Integration Plan Outline",
+      "section": "Appendix H",
+      "section_title": "Integration Plan Outline"
+    },
+    {
+      "physical_pdf_page": 270,
+      "printed_page": 257,
+      "characters": 2750,
+      "chapter": "Appendix H",
+      "chapter_title": "Integration Plan Outline",
+      "section": "4.0",
+      "section_title": "Phase 1 Integration"
+    },
+    {
+      "physical_pdf_page": 271,
+      "printed_page": 258,
+      "characters": 580,
+      "chapter": "Appendix H",
+      "chapter_title": "Integration Plan Outline",
+      "section": "5.0",
+      "section_title": "Multiple Phase Integration Steps (1 or N steps)"
+    },
+    {
+      "physical_pdf_page": 272,
+      "printed_page": 259,
+      "characters": 2382,
+      "chapter": "Appendix I",
+      "chapter_title": "Verification and Validation Plan Outline",
+      "section": "2.2",
+      "section_title": "Reference Documents"
+    },
+    {
+      "physical_pdf_page": 273,
+      "printed_page": 260,
+      "characters": 2199,
+      "chapter": "Appendix I",
+      "chapter_title": "Verification and Validation Plan Outline",
+      "section": "4.1",
+      "section_title": "Verification and Validation Management Responsibilities"
+    },
+    {
+      "physical_pdf_page": 274,
+      "printed_page": 261,
+      "characters": 2062,
+      "chapter": "Appendix I",
+      "chapter_title": "Verification and Validation Plan Outline",
+      "section": "4.2.2",
+      "section_title": "Inspection"
+    },
+    {
+      "physical_pdf_page": 275,
+      "printed_page": 262,
+      "characters": 2501,
+      "chapter": "Appendix I",
+      "chapter_title": "Verification and Validation Plan Outline",
+      "section": "5.4",
+      "section_title": "Facilities"
+    },
+    {
+      "physical_pdf_page": 276,
+      "printed_page": 263,
+      "characters": 2257,
+      "chapter": "Appendix I",
+      "chapter_title": "Verification and Validation Plan Outline",
+      "section": "6.1.2.2",
+      "section_title": "Verification by Analysis"
+    },
+    {
+      "physical_pdf_page": 277,
+      "printed_page": 264,
+      "characters": 2055,
+      "chapter": "Appendix I",
+      "chapter_title": "Verification and Validation Plan Outline",
+      "section": "7.1.1",
+      "section_title": "Developmental/Engineering Unit Evaluations"
+    },
+    {
+      "physical_pdf_page": 278,
+      "printed_page": 265,
+      "characters": 1869,
+      "chapter": "Appendix I",
+      "chapter_title": "Verification and Validation Plan Outline",
+      "section": "7.2",
+      "section_title": "Complete System Integration"
+    },
+    {
+      "physical_pdf_page": 279,
+      "printed_page": 266,
+      "characters": 1854,
+      "chapter": "Appendix I",
+      "chapter_title": "Verification and Validation Plan Outline",
+      "section": "7.2.3.4",
+      "section_title": "Validation by Demonstration"
+    },
+    {
+      "physical_pdf_page": 280,
+      "printed_page": 267,
+      "characters": 2501,
+      "chapter": "Appendix C",
+      "chapter_title": "Requirement Verification Matrix",
+      "section": "Appendix C",
+      "section_title": "Requirement Verification Matrix"
+    },
+    {
+      "physical_pdf_page": 282,
+      "printed_page": 269,
+      "characters": 2919,
+      "chapter": "Appendix J",
+      "chapter_title": "SEMP Content Outline",
+      "section": "Appendix J",
+      "section_title": "SEMP Content Outline"
+    },
+    {
+      "physical_pdf_page": 283,
+      "printed_page": 270,
+      "characters": 769,
+      "chapter": "Appendix J",
+      "chapter_title": "SEMP Content Outline",
+      "section": "Appendix J",
+      "section_title": "SEMP Content Outline"
+    },
+    {
+      "physical_pdf_page": 284,
+      "printed_page": 271,
+      "characters": 816,
+      "chapter": "Appendix J",
+      "chapter_title": "SEMP Content Outline",
+      "section": "Appendix J",
+      "section_title": "SEMP Content Outline"
+    },
+    {
+      "physical_pdf_page": 285,
+      "printed_page": 272,
+      "characters": 2636,
+      "chapter": "Appendix J",
+      "chapter_title": "SEMP Content Outline",
+      "section": "3.2",
+      "section_title": "System Structure"
+    },
+    {
+      "physical_pdf_page": 286,
+      "printed_page": 273,
+      "characters": 3201,
+      "chapter": "Appendix J",
+      "chapter_title": "SEMP Content Outline",
+      "section": "3.5",
+      "section_title": "Boundary of Technical Effort"
+    },
+    {
+      "physical_pdf_page": 287,
+      "printed_page": 274,
+      "characters": 2262,
+      "chapter": "Appendix J",
+      "chapter_title": "SEMP Content Outline",
+      "section": "4.1",
+      "section_title": "Responsibility and Authority"
+    },
+    {
+      "physical_pdf_page": 288,
+      "printed_page": 275,
+      "characters": 2935,
+      "chapter": "Appendix J",
+      "chapter_title": "SEMP Content Outline",
+      "section": "5.0",
+      "section_title": "Common Technical Processes Implementation"
+    },
+    {
+      "physical_pdf_page": 289,
+      "printed_page": 276,
+      "characters": 2566,
+      "chapter": "Appendix J",
+      "chapter_title": "SEMP Content Outline",
+      "section": "6.0",
+      "section_title": "Technology Insertion"
+    },
+    {
+      "physical_pdf_page": 290,
+      "printed_page": 277,
+      "characters": 2930,
+      "chapter": "Appendix J",
+      "chapter_title": "SEMP Content Outline",
+      "section": "7.4",
+      "section_title": "Technical Performance Measures"
+    },
+    {
+      "physical_pdf_page": 291,
+      "printed_page": 278,
+      "characters": 2429,
+      "chapter": "Appendix J",
+      "chapter_title": "SEMP Content Outline",
+      "section": "8.0",
+      "section_title": "Integration with the Project Pl an and Technical Resource Allocation"
+    },
+    {
+      "physical_pdf_page": 292,
+      "printed_page": 279,
+      "characters": 2041,
+      "chapter": "Appendix J",
+      "chapter_title": "SEMP Content Outline",
+      "section": "9.0",
+      "section_title": "Compliance Matrices"
+    },
+    {
+      "physical_pdf_page": 293,
+      "printed_page": 280,
+      "characters": 2060,
+      "chapter": "Appendix J",
+      "chapter_title": "SEMP Content Outline",
+      "section": "9.0",
+      "section_title": "Compliance Matrices"
+    },
+    {
+      "physical_pdf_page": 294,
+      "printed_page": 281,
+      "characters": 1468,
+      "chapter": "Appendix J",
+      "chapter_title": "SEMP Content Outline",
+      "section": "9.0",
+      "section_title": "Compliance Matrices"
+    },
+    {
+      "physical_pdf_page": 295,
+      "printed_page": 282,
+      "characters": 603,
+      "chapter": "Appendix J",
+      "chapter_title": "SEMP Content Outline",
+      "section": "9.0",
+      "section_title": "Compliance Matrices"
+    },
+    {
+      "physical_pdf_page": 296,
+      "printed_page": 283,
+      "characters": 1141,
+      "chapter": "Appendix K",
+      "chapter_title": "Technical Plans",
+      "section": "Appendix K",
+      "section_title": "Technical Plans"
+    },
+    {
+      "physical_pdf_page": 297,
+      "printed_page": 284,
+      "characters": 1767,
+      "chapter": "Appendix L",
+      "chapter_title": "Interface Requirements Document Outline",
+      "section": "3.1.4",
+      "section_title": "Engineering Units, Tol erances, and Conversion."
+    },
+    {
+      "physical_pdf_page": 298,
+      "printed_page": 285,
+      "characters": 2502,
+      "chapter": "Appendix L",
+      "chapter_title": "Interface Requirements Document Outline",
+      "section": "3.2.7",
+      "section_title": "Environments"
+    },
+    {
+      "physical_pdf_page": 299,
+      "printed_page": 286,
+      "characters": 2076,
+      "chapter": "Appendix L",
+      "chapter_title": "Interface Requirements Document Outline",
+      "section": "3.2.8",
+      "section_title": "Other Types of Interface Requirements"
+    },
+    {
+      "physical_pdf_page": 300,
+      "printed_page": 287,
+      "characters": 1072,
+      "chapter": "Appendix M",
+      "chapter_title": "CM Plan Outline",
+      "section": "Appendix M",
+      "section_title": "CM Plan Outline"
+    },
+    {
+      "physical_pdf_page": 305,
+      "printed_page": 292,
+      "characters": 2270,
+      "chapter": "Appendix R",
+      "chapter_title": "HSI Plan Content Outline",
+      "section": "Appendix R",
+      "section_title": "HSI Plan Content Outline"
+    },
+    {
+      "physical_pdf_page": 306,
+      "printed_page": 293,
+      "characters": 2235,
+      "chapter": "Appendix R",
+      "chapter_title": "HSI Plan Content Outline",
+      "section": "3.2",
+      "section_title": "HSI Relevance"
+    },
+    {
+      "physical_pdf_page": 307,
+      "printed_page": 294,
+      "characters": 2379,
+      "chapter": "Appendix R",
+      "chapter_title": "HSI Plan Content Outline",
+      "section": "4.1",
+      "section_title": "HSI Strategy Summary"
+    },
+    {
+      "physical_pdf_page": 308,
+      "printed_page": 295,
+      "characters": 2433,
+      "chapter": "Appendix R",
+      "chapter_title": "HSI Plan Content Outline",
+      "section": "5.2",
+      "section_title": "HSI Organization, Roles, and Responsibilities"
+    },
+    {
+      "physical_pdf_page": 309,
+      "printed_page": 296,
+      "characters": 2580,
+      "chapter": "Appendix R",
+      "chapter_title": "HSI Plan Content Outline",
+      "section": "5.3",
+      "section_title": "HSI Issue and Risk Processing"
+    },
+    {
+      "physical_pdf_page": 310,
+      "printed_page": 297,
+      "characters": 1649,
+      "chapter": "Appendix R",
+      "chapter_title": "HSI Plan Content Outline",
+      "section": "6.1",
+      "section_title": "HSI Implementation Summary"
+    },
+    {
+      "physical_pdf_page": 311,
+      "printed_page": 298,
+      "characters": 2213,
+      "chapter": "Appendix R",
+      "chapter_title": "HSI Plan Content Outline",
+      "section": "6.2",
+      "section_title": "HSI Activities and Products"
+    },
+    {
+      "physical_pdf_page": 312,
+      "printed_page": 299,
+      "characters": 1712,
+      "chapter": "Appendix R",
+      "chapter_title": "HSI Plan Content Outline",
+      "section": "6.3",
+      "section_title": "HSI Plan Update"
+    },
+    {
+      "physical_pdf_page": 313,
+      "printed_page": 300,
+      "characters": 525,
+      "chapter": "Appendix R",
+      "chapter_title": "HSI Plan Content Outline",
+      "section": "6.3",
+      "section_title": "HSI Plan Update"
+    },
+    {
+      "physical_pdf_page": 314,
+      "printed_page": 301,
+      "characters": 2089,
+      "chapter": "Appendix S",
+      "chapter_title": "Concept of Operations Annotated Outline",
+      "section": "2.1",
+      "section_title": "Applicable Documents"
+    },
+    {
+      "physical_pdf_page": 315,
+      "printed_page": 302,
+      "characters": 2642,
+      "chapter": "Appendix S",
+      "chapter_title": "Concept of Operations Annotated Outline",
+      "section": "4.0",
+      "section_title": "Physical Environment"
+    },
+    {
+      "physical_pdf_page": 316,
+      "printed_page": 303,
+      "characters": 2816,
+      "chapter": "Appendix S",
+      "chapter_title": "Concept of Operations Annotated Outline",
+      "section": "7.3",
+      "section_title": "Scientific/Technical Impacts"
+    },
+    {
+      "physical_pdf_page": 317,
+      "printed_page": 304,
+      "characters": 716,
+      "chapter": "Appendix S",
+      "chapter_title": "Concept of Operations Annotated Outline",
+      "section": "8.0",
+      "section_title": "Risks and Potential Issues"
+    },
+    {
+      "physical_pdf_page": 318,
+      "printed_page": 305,
+      "characters": 2940,
+      "chapter": "Appendix T",
+      "chapter_title": "Systems Engineering in Phase E",
+      "section": "Appendix T",
+      "section_title": "Systems Engineering in Phase E"
+    },
+    {
+      "physical_pdf_page": 319,
+      "printed_page": 306,
+      "characters": 2994,
+      "chapter": "Appendix T",
+      "chapter_title": "Systems Engineering in Phase E",
+      "section": "Appendix T",
+      "section_title": "Systems Engineering in Phase E"
+    },
+    {
+      "physical_pdf_page": 320,
+      "printed_page": 307,
+      "characters": 2588,
+      "chapter": "Appendix T",
+      "chapter_title": "Systems Engineering in Phase E",
+      "section": "Appendix T",
+      "section_title": "Systems Engineering in Phase E"
+    },
+    {
+      "physical_pdf_page": 321,
+      "printed_page": 308,
+      "characters": 2980,
+      "chapter": "Appendix T",
+      "chapter_title": "Systems Engineering in Phase E",
+      "section": "Appendix T",
+      "section_title": "Systems Engineering in Phase E"
+    },
+    {
+      "physical_pdf_page": 322,
+      "printed_page": 309,
+      "characters": 2755,
+      "chapter": "Appendix T",
+      "chapter_title": "Systems Engineering in Phase E",
+      "section": "Appendix T",
+      "section_title": "Systems Engineering in Phase E"
+    },
+    {
+      "physical_pdf_page": 323,
+      "printed_page": 310,
+      "characters": 2855,
+      "chapter": "Appendix T",
+      "chapter_title": "Systems Engineering in Phase E",
+      "section": "Appendix T",
+      "section_title": "Systems Engineering in Phase E"
+    },
+    {
+      "physical_pdf_page": 324,
+      "printed_page": 311,
+      "characters": 671,
+      "chapter": "Appendix T",
+      "chapter_title": "Systems Engineering in Phase E",
+      "section": "Appendix T",
+      "section_title": "Systems Engineering in Phase E"
+    }
+  ]
+}

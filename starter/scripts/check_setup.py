@@ -1,23 +1,19 @@
-"""Read-only setup check; this is a utility, not the student pipeline solution."""
+"""Check the local runtime dependencies without downloading or mocking a model."""
+from __future__ import annotations
+
 import os
 import sys
 from pathlib import Path
 
-import psycopg
-from dotenv import load_dotenv
+from fastembed import TextEmbedding
 
-load_dotenv(Path(__file__).resolve().parents[1] / '.env')
-url = os.getenv('DATABASE_URL')
-if not url:
-    sys.exit('DATABASE_URL missing: copy starter/.env.example to starter/.env first.')
-try:
-    with psycopg.connect(url, connect_timeout=5) as connection:
-        with connection.cursor() as cursor:
-            cursor.execute("SELECT current_database(), current_setting('server_version'), extversion FROM pg_extension WHERE extname = 'vector'")
-            row = cursor.fetchone()
-            if not row:
-                sys.exit('Connected, but pgvector extension is missing. See starter/README.md.')
-            print(f'Database: {row[0]} | PostgreSQL: {row[1]} | pgvector: {row[2]}')
-except psycopg.Error:
-    sys.exit('Database connection failed. Check Docker, port and DATABASE_URL in starter/.env.')
-print('Setup OK. Pipeline functions still need to be implemented.')
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from src.qdrant_service import QDRANT_EXE, QDRANT_VERSION
+
+model_name = os.getenv("EMBEDDING_MODEL", "sentence-transformers/all-MiniLM-L6-v2")
+models = {item["model"]: item for item in TextEmbedding.list_supported_models()}
+if model_name not in models:
+    raise SystemExit(f"FastEmbed does not list configured model {model_name!r}")
+print(f"Embedding model: {model_name} | dimensions: {models[model_name]['dim']}")
+print(f"Qdrant: pinned server version {QDRANT_VERSION}; binary present: {QDRANT_EXE.exists()}")
+print("Setup OK. Run `python -m src.run` to download/start Qdrant and download the real model if needed.")

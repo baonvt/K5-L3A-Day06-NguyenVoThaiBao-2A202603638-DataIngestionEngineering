@@ -1,4 +1,4 @@
-strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
-A,,,,,,,,,,,,
-B,,,,,,,,,,,,
-C,,,,,,,,,,,,
+﻿strategy,chunking,chunk_size,overlap,metadata,filter,vectorizer,hypothesis,dev_hit1,dev_hit3,test_hit1,test_hit3,notes
+A,fixed window,1000,120,"document_id, source, page, chapter, section, language, document_type",none,"sentence-transformers/all-MiniLM-L6-v2 (384d), Qdrant cosine",A may retrieve smaller local snippets; B preserves paragraph boundaries; C tests the effect of supplied chapter filters.,2/15,5/15,5/5,5/5,chunks=894; ingest_s=48.254; cost_usd=0; test is a small fixed set; Reviewer-labelled audit; author verification recorded in CSV
+B,paragraph grouping,1000,0,"document_id, source, page, chapter, section, language, document_type",none,"sentence-transformers/all-MiniLM-L6-v2 (384d), Qdrant cosine",A may retrieve smaller local snippets; B preserves paragraph boundaries; C tests the effect of supplied chapter filters.,3/15,5/15,5/5,5/5,chunks=902; ingest_s=53.599; cost_usd=0; test is a small fixed set; Reviewer-labelled audit; author verification recorded in CSV
+C,paragraph grouping,1000,0,"document_id, source, page, chapter, section, language, document_type",chapter when question supplies filter,"sentence-transformers/all-MiniLM-L6-v2 (384d), Qdrant cosine",A may retrieve smaller local snippets; B preserves paragraph boundaries; C tests the effect of supplied chapter filters.,3/15,6/15,5/5,5/5,chunks=902; ingest_s=1.14; cost_usd=0; test is a small fixed set; Reviewer-labelled audit; author verification recorded in CSV; ingest time is incremental because B vectors were reused

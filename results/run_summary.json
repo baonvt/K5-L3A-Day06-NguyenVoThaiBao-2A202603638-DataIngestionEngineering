@@ -1,0 +1,319 @@
+{
+  "run_date": "2026-11-13",
+  "corpus": {
+    "source_id": "nasa-se-handbook-rev2",
+    "pdf_sha256": "3153ae2e53e29452d5997efafe280a5f05cd21b43a047e988a17e1dd5207a38e",
+    "useful_pages": 301
+  },
+  "benchmark": {
+    "questions": 20,
+    "dev": 15,
+    "test": 5,
+    "filter_questions": 5
+  },
+  "embedding": {
+    "provider": "FastEmbed / ONNX Runtime CPU",
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "dimensions": 384,
+    "cost_usd": 0
+  },
+  "vector_store": {
+    "name": "Qdrant server",
+    "version": "1.20.0",
+    "path": "results/qdrant",
+    "metric": "cosine",
+    "search": "exact full scan cosine search with payload filtering; indexed vectors by collection: [0, 0, 0]",
+    "collections": {
+      "A": {
+        "points": 894,
+        "indexed_vectors": 0,
+        "full_scan_threshold": 10000
+      },
+      "B": {
+        "points": 902,
+        "indexed_vectors": 0,
+        "full_scan_threshold": 10000
+      },
+      "C": {
+        "points": 902,
+        "indexed_vectors": 0,
+        "full_scan_threshold": 10000
+      }
+    }
+  },
+  "chunk_configs": {
+    "A": {
+      "method": "fixed windows",
+      "size_chars": 1000,
+      "overlap_chars": 120
+    },
+    "B": {
+      "method": "paragraph grouping",
+      "max_chars": 1000
+    },
+    "C": {
+      "method": "same chunks as B",
+      "filter": "chapter filter applied only when supplied by benchmark input"
+    }
+  },
+  "timings": {
+    "A": {
+      "chunking_seconds": 0.017,
+      "embedding_seconds": 46.681,
+      "storage_seconds": 1.556,
+      "total_ingest_seconds": 48.254,
+      "search_seconds": 0.26,
+      "cost_usd": 0.0,
+      "embedding_note": "Local FastEmbed ONNX CPU inference"
+    },
+    "B": {
+      "chunking_seconds": 0.017,
+      "embedding_seconds": 51.917,
+      "storage_seconds": 1.664,
+      "total_ingest_seconds": 53.599,
+      "search_seconds": 0.112,
+      "cost_usd": 0.0,
+      "embedding_note": "Local FastEmbed ONNX CPU inference"
+    },
+    "C": {
+      "chunking_seconds": 0.079,
+      "embedding_seconds": 0.0,
+      "storage_seconds": 1.062,
+      "total_ingest_seconds": 1.14,
+      "search_seconds": 0.169,
+      "cost_usd": 0.0,
+      "embedding_note": "Reused B vectors because C has identical text chunks"
+    }
+  },
+  "metrics": {
+    "A": {
+      "dev": {
+        "questions": 15,
+        "hit_at_1": {
+          "hits": 2,
+          "total": 15,
+          "rate": 0.13333333333333333
+        },
+        "evidence_hit_at_3": {
+          "hits": 5,
+          "total": 15,
+          "rate": 0.3333333333333333
+        }
+      },
+      "test": {
+        "questions": 5,
+        "hit_at_1": {
+          "hits": 5,
+          "total": 5,
+          "rate": 1.0
+        },
+        "evidence_hit_at_3": {
+          "hits": 5,
+          "total": 5,
+          "rate": 1.0
+        }
+      }
+    },
+    "B": {
+      "dev": {
+        "questions": 15,
+        "hit_at_1": {
+          "hits": 3,
+          "total": 15,
+          "rate": 0.2
+        },
+        "evidence_hit_at_3": {
+          "hits": 5,
+          "total": 15,
+          "rate": 0.3333333333333333
+        }
+      },
+      "test": {
+        "questions": 5,
+        "hit_at_1": {
+          "hits": 5,
+          "total": 5,
+          "rate": 1.0
+        },
+        "evidence_hit_at_3": {
+          "hits": 5,
+          "total": 5,
+          "rate": 1.0
+        }
+      }
+    },
+    "C": {
+      "dev": {
+        "questions": 15,
+        "hit_at_1": {
+          "hits": 3,
+          "total": 15,
+          "rate": 0.2
+        },
+        "evidence_hit_at_3": {
+          "hits": 6,
+          "total": 15,
+          "rate": 0.4
+        }
+      },
+      "test": {
+        "questions": 5,
+        "hit_at_1": {
+          "hits": 5,
+          "total": 5,
+          "rate": 1.0
+        },
+        "evidence_hit_at_3": {
+          "hits": 5,
+          "total": 5,
+          "rate": 1.0
+        }
+      }
+    }
+  },
+  "manual_audit_status": "Reviewer-labelled audit; author verification recorded in CSV",
+  "manual_audit": {
+    "review_status": "Reviewer-labelled audit; author verification recorded in CSV",
+    "coherence": {
+      "A": {
+        "n": 10,
+        "distribution": {
+          "0": 1,
+          "1": 9,
+          "2": 0
+        },
+        "mean_out_of_2": 0.9
+      },
+      "B": {
+        "n": 10,
+        "distribution": {
+          "0": 1,
+          "1": 8,
+          "2": 1
+        },
+        "mean_out_of_2": 1
+      },
+      "C": {
+        "n": 10,
+        "distribution": {
+          "0": 1,
+          "1": 8,
+          "2": 1
+        },
+        "mean_out_of_2": 1
+      }
+    },
+    "metadata_accuracy": {
+      "correct": 45,
+      "total": 45,
+      "fields_checked": [
+        "document_id",
+        "source",
+        "page",
+        "chapter"
+      ]
+    },
+    "filtered_test_queries": {
+      "compliant": 3,
+      "total": 3,
+      "record_checks": {
+        "q17": {
+          "compliant_records": 3,
+          "records": 3,
+          "filter": {
+            "chapter": "5.0"
+          }
+        },
+        "q19": {
+          "compliant_records": 3,
+          "records": 3,
+          "filter": {
+            "chapter": "6.0"
+          }
+        },
+        "q20": {
+          "compliant_records": 3,
+          "records": 3,
+          "filter": {
+            "chapter": "6.0"
+          }
+        }
+      }
+    },
+    "grounding": {
+      "A": {
+        "n": 5,
+        "distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 5
+        },
+        "mean_out_of_2": 2
+      },
+      "B": {
+        "n": 5,
+        "distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 5
+        },
+        "mean_out_of_2": 2
+      },
+      "C": {
+        "n": 5,
+        "distribution": {
+          "0": 0,
+          "1": 0,
+          "2": 5
+        },
+        "mean_out_of_2": 2
+      }
+    }
+  },
+  "runtime": {
+    "python": "3.12.10",
+    "dependencies": {
+      "fastembed": "0.9.1",
+      "onnxruntime": "1.31.1",
+      "httpx": "0.28.1",
+      "fastapi": "0.162.5",
+      "uvicorn": "0.54.0",
+      "pypdf": "6.21.4"
+    }
+  },
+  "chunk_statistics": {
+    "A": {
+      "chunks": 894,
+      "characters": 757950,
+      "length_chars": {
+        "min": 127,
+        "median": 993.0,
+        "mean": 847.82,
+        "max": 999,
+        "under_100": 0
+      }
+    },
+    "B": {
+      "chunks": 902,
+      "characters": 729322,
+      "length_chars": {
+        "min": 10,
+        "median": 992.0,
+        "mean": 808.56,
+        "max": 1000,
+        "under_100": 14
+      }
+    },
+    "C": {
+      "chunks": 902,
+      "characters": 729322,
+      "length_chars": {
+        "min": 10,
+        "median": 992.0,
+        "mean": 808.56,
+        "max": 1000,
+        "under_100": 14
+      }
+    }
+  }
+}

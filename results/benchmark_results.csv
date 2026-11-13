@@ -1,0 +1,7 @@
+﻿strategy,split,questions,hit_at_1,evidence_hit_at_3,chunk_count,ingest_seconds,search_seconds,cost_usd
+A,dev,15,2/15,5/15,894,48.254,0.26,0
+A,test,5,5/5,5/5,894,48.254,0.26,0
+B,dev,15,3/15,5/15,902,53.599,0.112,0
+B,test,5,5/5,5/5,902,53.599,0.112,0
+C,dev,15,3/15,6/15,902,1.14,0.169,0
+C,test,5,5/5,5/5,902,1.14,0.169,0

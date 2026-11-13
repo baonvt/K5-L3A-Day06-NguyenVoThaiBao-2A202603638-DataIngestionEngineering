@@ -1,0 +1,46 @@
+{
+  "checked_at": "2026-11-13",
+  "http_status": {
+    "healthz": 200,
+    "simulate_q17": 200,
+    "search": 200
+  },
+  "health": {
+    "status": "ready",
+    "embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+    "dimensions": 384,
+    "vector_store": "Qdrant server (persistent, cosine)",
+    "points": {
+      "A": 894,
+      "B": 902,
+      "C": 902
+    }
+  },
+  "simulated_question": {
+    "id": "q17",
+    "strategy": "C",
+    "filter_applied": {
+      "chapter": "5.0"
+    },
+    "hit_count": 3,
+    "top_hit": {
+      "page": 110,
+      "score": 0.7520005,
+      "chapter": "5.0",
+      "excerpt": "5.2 Product Integration Product integration is a key activity of the systems engineer. Product integration is the engineering of the subsystem interactions and their interactions with the system environments (both natural and induced). Also in this process, lo"
+    }
+  },
+  "search": {
+    "strategy": "C",
+    "filter_applied": {
+      "chapter": "6.0"
+    },
+    "hit_count": 3,
+    "top_hit": {
+      "page": 145,
+      "score": 0.66140413,
+      "chapter": "6.0",
+      "excerpt": "6.1 Technical Planning The Technical Planning Process, the first of the eight technical management processes contained in the systems engineering engine, establishes a plan for applying and managing each of the common technical processes that will be used to d"
+    }
+  }
+}

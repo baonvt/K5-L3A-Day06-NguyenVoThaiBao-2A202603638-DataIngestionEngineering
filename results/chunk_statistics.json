@@ -1,0 +1,35 @@
+{
+  "A": {
+    "chunks": 894,
+    "characters": 757950,
+    "length_chars": {
+      "min": 127,
+      "median": 993.0,
+      "mean": 847.82,
+      "max": 999,
+      "under_100": 0
+    }
+  },
+  "B": {
+    "chunks": 902,
+    "characters": 729322,
+    "length_chars": {
+      "min": 10,
+      "median": 992.0,
+      "mean": 808.56,
+      "max": 1000,
+      "under_100": 14
+    }
+  },
+  "C": {
+    "chunks": 902,
+    "characters": 729322,
+    "length_chars": {
+      "min": 10,
+      "median": 992.0,
+      "mean": 808.56,
+      "max": 1000,
+      "under_100": 14
+    }
+  }
+}

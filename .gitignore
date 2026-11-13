@@ -8,3 +8,7 @@ __pycache__/
 .DS_Store
 .pytest_cache/
 *.sqlite
+results/qdrant/
+results/qdrant.pid
+results/qdrant_server.log
+starter/tools/qdrant/

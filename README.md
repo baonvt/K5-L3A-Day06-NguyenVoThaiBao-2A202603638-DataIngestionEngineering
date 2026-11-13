@@ -1,47 +1,29 @@
 # Day 06 · Data Ingestion Engineering
 
-**Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
+Lab cá nhân: biến tài liệu thành kho tri thức có thể truy xuất, rồi đo ảnh hưởng của cách chuẩn bị dữ liệu.
 
-Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, rồi đo xem cách chuẩn bị dữ liệu nào hiệu quả nhất.
+## Bản chạy trong repo này
 
-| 📄 Dữ liệu | 🧩 Chiến lược | 🎯 Benchmark |
-|---|---|---|
-| Tối thiểu **30 trang nội dung** | Tối thiểu **3 cấu hình** | Tối thiểu **20 câu hỏi** |
+Pipeline đã được hiện thực với **NASA Systems Engineering Handbook Rev 2**, embedding local thật (FastEmbed/ONNX) và Qdrant có lưu bền vững. Không cần API key hoặc Docker. PDF, manifest, bộ câu hỏi, trace và báo cáo chạy nằm trong repo.
 
-## Bắt đầu nhanh
+```powershell
+cd starter
+python -m venv .venv
+.venv\Scripts\Activate.ps1
+python -m pip install -r requirements.txt
+python -m src.run
+python -m src.server
+```
 
-Dùng [starter PostgreSQL + pgvector](starter/README.md) để dựng database và hoàn thiện các hàm TODO, hoặc tự chọn vector store tương đương. Starter chỉ là khung: **bạn tự hiện thực pipeline và benchmark**.
+Lần đầu, model embedding và binary Qdrant chính thức sẽ được tải về máy. Khi server hiện `Uvicorn running`, mở [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs), health check tại `/healthz`, hoặc chạy một benchmark query đã viết sẵn tại `/simulate/q17?strategy=C`. Server dùng Qdrant và model thật; lỗi backend được trả về, không fallback sang mock. Với collection hiện có, Qdrant thực hiện cosine full scan chính xác (894–902 points, dưới ngưỡng 10.000; chưa có HNSW-indexed vectors).
 
-## 1. Xây pipeline
+## Bằng chứng và bài nộp
 
-![Đọc tài liệu, chuẩn hóa, chia chunk, tạo vector, lưu và kiểm tra](assets/ingestion-pipeline.svg)
+- [Hướng dẫn chạy và API](starter/README.md)
+- [Corpus và manifest nguồn/quyền/trang](data/manifest.json)
+- [20 câu hỏi, split 15 dev / 5 test và gold evidence](benchmark/questions.json)
+- [Trace top-3 và chỉ số retrieval](results/top3_traces.jsonl), [bảng kết quả](results/benchmark_results.csv), [tóm tắt lần chạy](results/run_summary.json)
+- [Bản ghi kiểm tra serve thật](results/serve_demo.json), [audit và nhãn reviewer](results/manual_audit_template.csv), [tóm tắt audit](results/manual_audit_summary.json), [báo cáo cá nhân](report/individual/2A202603638_NguyenVoThaiBao.md)
+- [Ghi chú môi trường và phương án dự phòng](results/run_environment_notes.md)
 
-Chọn tài liệu được phép sử dụng; giữ **ID tài liệu, nguồn, trang/vị trí** và metadata phù hợp. Dùng embedding model thật qua API hoặc chạy local; lưu và truy xuất bằng pgvector, Qdrant, Chroma hoặc một store tương đương.
-
-## 2. So sánh và đánh giá
-
-![Ba chiến lược được đánh giá trên cùng corpus và benchmark dev/test](assets/benchmark-workflow.svg)
-
-Dùng cùng dữ liệu, model và câu hỏi cho cả ba cấu hình. Tách **15 câu dev / 5 câu test** trước khi chạy; chọn cấu hình trên dev, rồi đánh giá test sau khi cố định. Mỗi câu hỏi cần có đoạn bằng chứng và trang nguồn; thiết kế bộ câu hỏi và đánh giá theo [BENCHMARK.md](BENCHMARK.md).
-
-Đánh giá theo năm khía cạnh: **độ chính xác truy xuất**, **tính mạch lạc của chunk**, **tính hữu dụng của metadata**, **chất lượng grounding** và **tác động của chiến lược dữ liệu**. Giải thích lựa chọn bằng kết quả, ví dụ lỗi và các đánh đổi.
-
-## 3. Chuẩn bị bài nộp
-
-1. Chạy pipeline và lưu cấu hình, kết quả top-3, trace cùng nhãn đánh giá thủ công.
-2. Điền [thông tin học viên](STUDENT.md), [nhật ký thí nghiệm](artifacts/experiment_log.csv) và bản sao [mẫu báo cáo cá nhân](report/individual/MSSV_HoTen.md).
-3. Kiểm tra mã nguồn, cách chạy, manifest dữ liệu và checklist trong [SUBMISSION.md](SUBMISSION.md).
-
-## Tài liệu hướng dẫn
-
-| Bạn cần tìm | Tài liệu |
-|---|---|
-| Setup baseline PostgreSQL + pgvector | [starter/README.md](starter/README.md) |
-| Các bước làm và cách tính chỉ số | [GUIDE.md](GUIDE.md) |
-| Tiến độ trong 4 giờ | [CHECKPOINTS.md](CHECKPOINTS.md) |
-| Năm tiêu chí benchmark và bộ câu hỏi | [BENCHMARK.md](BENCHMARK.md) |
-| Tiêu chí chấm điểm | [RUBRIC.md](RUBRIC.md) |
-| Quy tắc sử dụng dữ liệu, AI và API | [RULES.md](RULES.md) |
-| Cách nộp bài | [SUBMISSION.md](SUBMISSION.md) |
-
-[data/format-example.json](data/format-example.json) chỉ minh họa định dạng, không phải corpus đủ điều kiện. Phần xử lý và benchmark do bạn tự hiện thực; không bắt buộc xây chatbot.
+Audit CSV ghi nhãn, lý do và reviewer cho 90 mẫu. Khi cập nhật audit, từ `starter` chạy `python -m src.refresh_audit` để đồng bộ summary/báo cáo mà không tính lại embedding. Trước khi nộp, hoàn thành checklist trong [SUBMISSION.md](SUBMISSION.md). Các định nghĩa và tiêu chí xem [GUIDE.md](GUIDE.md), [BENCHMARK.md](BENCHMARK.md), [RUBRIC.md](RUBRIC.md) và [RULES.md](RULES.md).

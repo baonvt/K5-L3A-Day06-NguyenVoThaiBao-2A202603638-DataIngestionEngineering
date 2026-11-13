@@ -1,0 +1,147 @@
+[
+  {
+    "id": "q01", "split": "dev", "type": "rephrase",
+    "question": "Which kinds of components does the handbook say can form part of a system?",
+    "expected_answer": "Hardware, software, equipment, facilities, personnel, processes, and procedures can all be system elements.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 16,
+    "evidence_quote": "The elements include all hardware, software, equipment, facilities, personnel, processes, and procedures needed for this purpose"
+  },
+  {
+    "id": "q02", "split": "dev", "type": "direct",
+    "question": "What are the three groups that organize NASA's common technical processes?",
+    "expected_answer": "System design, product realization, and technical management.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 18,
+    "evidence_quote": "system design, product realization, and technical management"
+  },
+  {
+    "id": "q03", "split": "dev", "type": "concept",
+    "question": "How does the SE engine repeat work on one product and across product levels?",
+    "expected_answer": "Iteratively on the same product to resolve discrepancies, and recursively across system layers or life-cycle phases.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 20,
+    "evidence_quote": "The processes within the SE engine are used both iteratively and recursively"
+  },
+  {
+    "id": "q04", "split": "dev", "type": "direct",
+    "question": "What does Phase F closeout include?",
+    "expected_answer": "Implementing the decommissioning and disposal plan developed in Phase E, and analyzing returned data and samples.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 23,
+    "evidence_quote": "To implement the systems decommissioning/disposal plan developed in Phase E and perform analyses of the returned data and any returned samples"
+  },
+  {
+    "id": "q05", "split": "dev", "type": "rephrase",
+    "question": "At what point in a project's life cycle are its costs generally committed?",
+    "expected_answer": "Life-cycle costs tend to become locked in early in design and development.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 26,
+    "evidence_quote": "life-cycle costs of a program or project tend to get “locked in” early in design and development"
+  },
+  {
+    "id": "q06", "split": "dev", "type": "concept",
+    "question": "Which human-related element must the systems engineering approach integrate along with hardware and software?",
+    "expected_answer": "Human systems integration.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 28,
+    "evidence_quote": "the systems engineering approach must equally address and integrate these three key elements: hardware, software, and human systems integration"
+  },
+  {
+    "id": "q07", "split": "dev", "type": "direct",
+    "question": "What readiness decision is made at a Key Decision Point?",
+    "expected_answer": "The decision authority determines whether a program or project is ready to move to the next life-cycle phase or KDP.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 32,
+    "evidence_quote": "KDPs are the events at which the decision authority determines the readiness of a program/project to progress to the next phase of the life cycle"
+  },
+  {
+    "id": "q08", "split": "dev", "type": "rephrase",
+    "question": "How does the handbook describe the end of program formulation before implementation starts?",
+    "expected_answer": "One or more program reviews lead to KDP I, where a decision approves the program to begin implementation.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 36,
+    "evidence_quote": "Formulation for all program types is the same, involving one or more program reviews followed by KDP I where a decision is made approving a program to begin implementation"
+  },
+  {
+    "id": "q09", "split": "dev", "type": "direct",
+    "question": "What is Phase A intended to develop?",
+    "expected_answer": "A credible, responsive proposed mission or system architecture that accounts for program expectations, requirements, project constraints, and resources.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 39,
+    "evidence_quote": "The purpose of Phase A is to develop a proposed mission/system architecture that is credible and responsive to program expectations, requirements, and constraints on the project, including resources"
+  },
+  {
+    "id": "q10", "split": "dev", "type": "condition",
+    "question": "Before entering detailed design, what work does Phase B complete and what readiness does it establish?",
+    "expected_answer": "It completes identified technology development, prototyping, heritage assessments, and risk mitigation, and demonstrates that design and baselines are mature enough to start Phase C with acceptable mission risk.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 42,
+    "evidence_quote": "The purpose of Phase B is for the project team to complete the technology development, engineering prototyping, heritage hardware and software assessments, and other risk-mitigation activities identified in the project Formulation Agreement (FA) and the preliminary design"
+  },
+  {
+    "id": "q11", "split": "dev", "type": "direct",
+    "question": "What are the two main outcomes Phase C is meant to produce?",
+    "expected_answer": "A documented detailed design that meets detailed requirements and realized products through fabrication, coding, or other means.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 44,
+    "evidence_quote": "The purpose of Phase C is to complete and document the detailed design of the system that meets the detailed requirements and to fabricate, code, or otherwise realize the products"
+  },
+  {
+    "id": "q12", "split": "dev", "type": "direct",
+    "question": "Which four processes make up system design in this handbook?",
+    "expected_answer": "Stakeholder expectations, technical requirements, logical decomposition, and design solution definition.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 63,
+    "evidence_quote": "There are four system design processes: developing stakeholder expectations, technical requirements, logical decompositions, and design solutions"
+  },
+  {
+    "id": "q13", "split": "dev", "type": "metadata_filter",
+    "question": "In the system design chapter, what does logical decomposition create?",
+    "expected_answer": "Detailed functional requirements and logical decomposition models, including derived technical requirements allocated to lower levels.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 86,
+    "evidence_quote": "Logical decomposition is the process for creating the detailed functional requirements that enable NASA programs and projects to meet the stakeholder expectations",
+    "filter": {"chapter": "4.0"}
+  },
+  {
+    "id": "q14", "split": "dev", "type": "concept",
+    "question": "In what form must validated technical requirements be stated for design work?",
+    "expected_answer": "As validated technical requirements expressed as shall statements.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 76,
+    "evidence_quote": "a complete set of validated technical requirements expressed as “shall” statements"
+  },
+  {
+    "id": "q15", "split": "dev", "type": "metadata_filter",
+    "question": "In the product realization chapter, what happens to a product before it moves to the next system level?",
+    "expected_answer": "It is produced, acquired, reused, or coded; integrated; verified against design specifications; validated against stakeholder expectations; then transitioned.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 102,
+    "evidence_quote": "These products are produced, acquired, reused, or coded; integrated into higher level assemblies; verified against design specifications; validated against stakeholder expectations; and transitioned to the next level of the system",
+    "filter": {"chapter": "5.0"}
+  },
+  {
+    "id": "q16", "split": "test", "type": "direct",
+    "question": "What are the ways a project may realize a product during implementation?",
+    "expected_answer": "By buying, making or coding, or reusing previously developed hardware, software, models, or studies.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 104,
+    "evidence_quote": "buying, making/coding, or reusing previously developed hardware, software, models, or studies"
+  },
+  {
+    "id": "q17", "split": "test", "type": "metadata_filter",
+    "question": "Within product realization, what does product integration do with lower-level products and subsystem interactions?",
+    "expected_answer": "It engineers subsystem and environment interactions, assembles lower-level products into higher-level products, and checks for proper function and adverse emergent behavior.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 110,
+    "evidence_quote": "lower-level products are assembled into higher-level products and checked to make sure that the integrated product functions properly and that there are no adverse emergent behaviors",
+    "filter": {"chapter": "5.0"}
+  },
+  {
+    "id": "q18", "split": "test", "type": "concept",
+    "question": "What role do the technical management processes play between project management and engineering?",
+    "expected_answer": "They bridge project management and the technical team.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 144,
+    "evidence_quote": "The technical management processes are the bridges between project management and the technical team"
+  },
+  {
+    "id": "q19", "split": "test", "type": "metadata_filter",
+    "question": "For crosscutting technical management, what is the SEMP and how does it change over the project life cycle?",
+    "expected_answer": "It is the primary top-level technical management document, developed early in Formulation and updated throughout the project life cycle.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 154,
+    "evidence_quote": "The SEMP is the primary, top-level technical management document for the project and is developed early in the Formulation Phase and updated throughout the project life cycle",
+    "filter": {"chapter": "6.0"}
+  },
+  {
+    "id": "q20", "split": "test", "type": "metadata_filter",
+    "question": "When should a technical risk mitigation action plan be triggered, and how should near-threshold risks be monitored?",
+    "expected_answer": "When the identified risk threshold is reached; risks approaching trigger thresholds should be monitored more frequently.",
+    "gold_source_id": "nasa-se-handbook-rev2", "gold_page": 178,
+    "evidence_quote": "Risks that are approaching the trigger thresholds will be monitored on a more frequent basis",
+    "filter": {"chapter": "6.0"}
+  }
+]
